@@ -14,6 +14,59 @@
   -webkit-text-size-adjust: 100%;
 }
 
+header {
+  background-image: url("public/assets/iteration-1/home-banner.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-section img {
+  padding-top: 56px;
+  height: 50%;
+  width: 40%;
+}
+
+.header-section p {
+  font-family: Satisfy;
+  color: #FDC913;
+  font-size: 39px;
+}
+
+.header-section h1 {
+  font-family: Roboto Condensed;
+  font-weight: 350;
+  font-size: 82px;
+  line-height: 92px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.header-section .btn {
+  background-color: #FDC913;
+  color: black;
+  border-radius: 50px;
+  height: 55px;
+  width: 195px;
+  font-size: 20px;
+}
+
+.header-section .btn:hover {
+  background-color: black;
+  color: #FDC913;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,7 +78,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -63,6 +115,13 @@ h1 {
 .read-the-docs {
   color: #888;
 }
+
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 button {
   border-radius: 8px;
