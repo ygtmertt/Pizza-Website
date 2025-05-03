@@ -79,6 +79,7 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
+  height: fit-content;
   padding: 15px;
   align-items: center;
   gap: 6.2rem;
@@ -95,7 +96,9 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 20px;
+  padding: 60px;
+  height: auto;
+  background-color: #f9f9f9;
 }
 
 .menu-pizza-promoter {
@@ -104,10 +107,11 @@ header {
   background-size: cover;
   background-position: center;
   width: 25vw;
-  height: 50vh;
+  height: 475.5px;
   border-radius: 20px;
-  padding-top: 15px;
-  padding-left: 35px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
   flex-direction: column;
   align-items: start;
 }
@@ -127,7 +131,7 @@ header {
 .menu-pizza-promoter p {
   font-family: Barlow;
   font-weight: 600;
-  font-size: 19.5px;
+  font-size: 20px;
   line-height: 26.76px;
   letter-spacing: 0%;
   vertical-align: middle;
@@ -135,6 +139,91 @@ header {
 }
 
 .menu-pizza-promoter .btn {
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  width: fit-content;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  color: crimson;
+}
+
+
+
+.menu-burger-promoter {
+  display: flex;
+  background-image: url("public/assets/iteration-2/cta/kart-2.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 25vh;
+  width: 30vw;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-burger-promoter h2 {
+  display: flex;
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 32px;
+  width: 12vw;
+  line-height: 44.27px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.menu-burger-promoter .btn {
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  width: fit-content;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  color: crimson;
+}
+
+.menu-kurye-promoter {
+  display: flex;
+  align-items: start;
+  background-image: url("public/assets/iteration-2/cta/kart-3.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 25vh;
+  width: 30vw;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.menu-kurye-promoter h2 {
+  display: flex;
+  color: black;
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 32px;
+  width: 16vw;
+  line-height: 44.27px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.menu-kurye-promoter button {
   font-family: Barlow;
   font-weight: 600;
   font-size: 18px;
