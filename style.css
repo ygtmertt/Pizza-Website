@@ -55,16 +55,18 @@ header {
 }
 
 .header-section .btn {
-  background-color: #FDC913;
+  background-color: rgb(255, 234, 0);
   color: black;
   border-radius: 50px;
   width: 10vw;
-  font-size: 20px;
+  font-size: 25px;
+  border: none;
 }
 
 .header-section .btn:hover {
   background-color: black;
   color: #FDC913;
+  border: none;
 }
 
 .menu-container {
@@ -79,7 +81,6 @@ header {
   color: black;
   display: flex;
   justify-content: center;
-  width: 100%;
   height: fit-content;
   padding: 15px;
   align-items: center;
@@ -107,7 +108,7 @@ header {
   background-image: url("public/assets/iteration-2/cta/kart-1.png");
   background-size: cover;
   background-position: center;
-  max-width: 25vw;
+  width: 30%;
   max-height: 475.5px;
   border-radius: 20px;
   margin-right: 20px;
@@ -153,18 +154,16 @@ header {
   color: crimson;
 }
 
-
-
 .menu-burger-promoter {
   display: flex;
   background-image: url("public/assets/iteration-2/cta/kart-2.png");
   background-size: cover;
   background-position: center;
   border-radius: 20px;
-  height: 25vh;
+  height: 47%;
   width: 30vw;
   flex-direction: column;
-  padding-top: 10px;
+  padding-bottom: 11px;
   padding-left: 20px;
   margin-bottom: 10px;
 }
@@ -189,7 +188,7 @@ header {
   line-height: 32px;
   letter-spacing: 0%;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: center;
   width: fit-content;
   background-color: #f9f9f9;
   border-radius: 25px;
@@ -203,9 +202,10 @@ header {
   background-size: cover;
   background-position: center;
   border-radius: 20px;
-  height: 25vh;
+  height: 47;
   width: 30vw;
   flex-direction: column;
+  padding-bottom: 11px;
   padding-top: 10px;
   padding-left: 20px;
 }
@@ -336,6 +336,10 @@ header {
 
 .price {
   font-weight: bold;
+}
+
+footer {
+  list-style-type: none;
 }
 
 a {
