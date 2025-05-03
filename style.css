@@ -18,6 +18,7 @@ header {
   background-image: url("public/assets/iteration-1/home-banner.png");
   width: 100%;
   height: 100vh;
+  margin: 0;
   background-size: cover;
   background-position: center;
 }
@@ -106,8 +107,8 @@ header {
   background-image: url("public/assets/iteration-2/cta/kart-1.png");
   background-size: cover;
   background-position: center;
-  width: 25vw;
-  height: 475.5px;
+  max-width: 25vw;
+  max-height: 475.5px;
   border-radius: 20px;
   margin-right: 20px;
   padding-top: 10px;
@@ -237,6 +238,105 @@ header {
   color: crimson;
 }
 
+.most-ordered {
+  display: flex;
+  max-width: 1296;
+  max-height: 110;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.most-ordered p {
+  font-family: Satisfy;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44.27px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;  
+  color: crimson;
+}
+
+.most-ordered h2 {
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56.2px;
+  letter-spacing: 0%;
+  color: black;
+  text-align: center;
+  vertical-align: middle;  
+}
+
+.food-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 130px;
+  background-color: #f9f9f9;
+  gap: 20px;
+}
+
+.food-buttons button {
+  display: flex;
+  color: black;
+  border: 1.7px solid crimson;
+  border-radius: 50px;
+  background-color: #f9f9f9;
+  align-items: center;
+}
+
+.food-buttons button:hover {
+  display: flex;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: black;
+  align-items: center;
+}
+
+.food-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
+  background-color: #f9f9f9;
+}
+
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  width: 270px;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+  padding-top: 0;
+  font-size: 1.2rem;
+}
+
+.menu-card h3 {
+  display: flex;
+  width: 270px;
+  color: black;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 1.3rem;
+}
+
+.price {
+  font-weight: bold;
+}
 
 a {
   font-weight: 500;
